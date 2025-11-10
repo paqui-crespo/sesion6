@@ -117,6 +117,12 @@
     <div id="carouselExample" class="carousel slide">
       <div class="carousel-inner">
         <div class="carousel-item active">
+          .carousel-inner img {
+          width: 100%; /* o un valor fijo por ejemplo: 600px */
+          height: 400px; /* o 'auto' si quieres mantener la proporción */
+          object-fit: cover; /* Recorta la imagen para rellenar el contenedor */
+          }
+
           <img src="1.jpg" class="d-block w-100" alt="1.jpg">
         </div>
         <div class="carousel-item">
